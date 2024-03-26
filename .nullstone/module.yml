@@ -1,0 +1,15 @@
+org_name: nullstone
+name: aws-batch-job-queue-scheduling
+friendly_name: AWS Batch Job Queue Scheduling
+description: Capability that injects the required env variables for an app to create schedules in the connected job queue
+category: capability
+subcategory: events
+provider_types:
+    - aws
+platform: batch
+subplatform: fargate
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
